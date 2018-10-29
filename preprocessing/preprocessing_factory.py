@@ -20,7 +20,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from preprocessing import cytologyGoodOrBad_preprocessing
+from preprocessing import basic
 
 slim = tf.contrib.slim
 
@@ -42,8 +42,7 @@ def get_preprocessing(name, is_training=False):
     ValueError: If Preprocessing `name` is not recognized.
   """
   preprocessing_fn_map = {
-      'vgg_19': vgg_preprocessing,
-      'cytologyGoodOrBad': cytologyGoodOrBad_preprocessing
+      'basic': basic
   }
 
   if name not in preprocessing_fn_map:
