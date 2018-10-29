@@ -1,2 +1,4 @@
-raw_data/*
+raw_data/TCGA/svs/*
+raw_data/XML_TCGA_HG/*
 TFRecords/*
+gdc-client

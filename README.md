@@ -61,23 +61,22 @@ For each feature in the phenotypes file, we need to embed the attribute into the
 ```
 
 # Train and Test on multiple phenotypes
-TFRecords can only be constructed if all variables are present. Using the features below, this leaves 305 samples for training and 90 samples for testing. 
+TFRecords can only be constructed if all variables are present. Using the features below, this leaves XX samples for training and XX samples for testing. 
 ```
+#"age_at_initial_pathologic_diagnosis","race","ajcc_pathologic_tumor_stage","histological_type","initial_pathologic_dx_year","vital_status","tumor_status","PFI","PFI.time","ER.Status","PR.Status","HER2.Final.Status","Metastasis.Coded","PAM50.mRNA","Set","ATM_Mutations","BRCA1_Mutations","BRCA2_Mutations","CDH1_Mutations","CDKN2A_Mutations","PTEN_Mutations","TP53_Mutations","AnyGene_Mutations"
  [1] "age_at_initial_pathologic_diagnosis" "race"
- [3] "histological_type"                   "initial_pathologic_dx_year"
- [5] "tumor_status"                        "PFI"
- [7] "PFI.time"                            "ER.Status"
- [9] "PR.Status"                           "HER2.Final.Status"
-[11] "Metastasis.Coded"                    "PAM50.mRNA"
-[13] "Set"                                 "ATM_Mutations"
-[15] "BRCA1_Mutations"                     "BRCA2_Mutations"
-[17] "BARD1_Mutations"                     "BRIP1_Mutations"
+ [3] "ajcc_pathologic_tumor_stage"         "histological_type"
+ [5] "initial_pathologic_dx_year"          "vital_status"
+ [7] "tumor_status"                        "PFI"
+ [9] "PFI.time"                            "ER.Status"
+[11] "PR.Status"                           "HER2.Final.Status"
+[13] "Metastasis.Coded"                    "PAM50.mRNA"
+[15] "Set"                                 "ATM_Mutations"
+[17] "BRCA1_Mutations"                     "BRCA2_Mutations"
 [19] "CDH1_Mutations"                      "CDKN2A_Mutations"
-[21] "CHEK2_Mutations"                     "MLH1_Mutations"
-[23] "MSH2_Mutations"                      "MSH6_Mutations"
-[25] "PALB2_Mutations"                     "PTEN_Mutations"
-[27] "RAD51C_Mutations"                    "RAD51D_Mutations"
-[29] "TP53_Mutations"                      "AnyGene_Mutations"
+[21] "PTEN_Mutations"                      "TP53_Mutations"
+[23] "AnyGene_Mutations"
+
 ```
 Creating the TFRecords uses the following command
 ```
