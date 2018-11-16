@@ -1,0 +1,391 @@
+bcr_patient_barcode	type	DeadInTenYears	race	ajcc_pathologic_tumor_stage	histological_type	tumor_status	ER Status	PR Status	HER2 Final Status	Node-Coded	Metastasis-Coded	PAM50 mRNA	ATM_Mutations	BRCA1_Mutations	BRCA2_Mutations	BARD1_Mutations	BRIP1_Mutations	CDH1_Mutations	CDKN2A_Mutations	CHEK2_Mutations	MLH1_Mutations	MSH2_Mutations	MSH6_Mutations	PALB2_Mutations	PTEN_Mutations	RAD51C_Mutations	RAD51D_Mutations	TP53_Mutations	AnyGene_Mutations
+TCGA-A1-A0SH	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Positive	Negative	Negative	Negative	Luminal A	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A1-A0SK	BRCA	0	ASIAN	Stage II	Other	WITH TUMOR	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1
+TCGA-A1-A0SO	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A04P	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A04Q	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A04T	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A04U	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A04W	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0CM	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0D0	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0D1	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0D2	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-A2-A0EQ	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0ST	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0SX	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0T0	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-A2-A0T2	BRCA	0	WHITE	Stage IV	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Positive	Positive	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-A2-A0YE	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-A2-A0YM	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A7-A0CE	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A7-A0DA	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1
+TCGA-A7-A13D	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Positive	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A04C	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A04D	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AN-A0AL	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1
+TCGA-AN-A0AR	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AN-A0AT	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	1
+TCGA-AN-A0FL	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0FV	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0FX	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0G0	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0XN	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0XS	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0XU	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AO-A03U	BRCA	0	WHITE	Stage I	Other	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Normal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A0J2	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AO-A0J4	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1
+TCGA-AO-A0J6	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1
+TCGA-AO-A0JE	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A0JL	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A124	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A128	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	1	0	0	0	0	1	0	1	0	0	1	1
+TCGA-AO-A129	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A12D	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A12F	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AQ-A04J	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AR-A0TS	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A0U0	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AR-A0U1	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AR-A0U4	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AI	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AQ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AR	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AR-A1AY	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-B6-A0IE	BRCA	1	BLACK OR AFRICAN AMERICAN	Stage III	Other	WITH TUMOR	Negative	Negative	Negative	Positive	Negative	Normal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0IK	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0IQ	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0RE	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage X	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0RG	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Luminal A	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0RN	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0RS	BRCA	1	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0RT	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0RU	BRCA	0	WHITE	Stage I	Other	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-B6-A0WX	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Other	WITH TUMOR	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0AV	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0B3	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-BH-A0B9	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0BG	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0BL	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0BW	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	1	1
+TCGA-BH-A0E0	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0E6	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0EE	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0RX	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A18G	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	1	0	0	0	0	0	0	1	0	0	0	0	0	1	0	1
+TCGA-BH-A18T	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-BH-A1EW	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-C8-A12L	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Negative	Negative	HER2-enriched	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A12P	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A12Q	BRCA	0	ASIAN	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1
+TCGA-C8-A12V	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-C8-A12Z	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A131	BRCA	0	ASIAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A134	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-C8-A135	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A137	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A1HF	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Positive	Positive	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-D8-A142	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-D8-A143	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A14N	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-E2-A14P	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	1	0	1	0	0	0	0	0	0	0	1	1	1
+TCGA-E2-A14R	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A14X	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A150	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A158	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A159	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-E2-A1AZ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A1B0	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A1B6	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Negative	Negative	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A1-A0SE	BRCA	0	WHITE	Stage I	Other	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A1-A0SJ	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A1-A0SM	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A04N	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A04R	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A04V	BRCA	1	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A04X	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A04Y	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0CL	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-A2-A0CP	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0CQ	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0CS	BRCA	1	WHITE	Stage IV	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Positive	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-A2-A0CT	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0CU	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0CV	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0CW	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0CX	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Negative	Negative	HER2-enriched	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	1	1
+TCGA-A2-A0CY	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0CZ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-A2-A0D3	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0D4	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0EM	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0EN	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0EO	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0ER	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0ES	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0ET	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0EU	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0EV	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0EW	BRCA	1	WHITE	Stage III	Infiltrating Lobular Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0EX	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0EY	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Positive	Negative	Luminal B	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0SU	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0SV	BRCA	0	WHITE	Stage IV	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Positive	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-A2-A0SW	BRCA	0	WHITE	Stage IV	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Negative	Negative	Positive	Positive	Luminal B	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0SY	BRCA	0	WHITE	Stage III	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0T3	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0T4	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0T5	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0T6	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0T7	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0YC	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0YD	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0YF	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0YG	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-A2-A0YH	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0YI	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A2-A0YJ	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A2-A0YK	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Normal-like	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A2-A0YL	BRCA	0	WHITE	Stage III	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-A7-A0CD	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A7-A0CG	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A7-A0CJ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-A7-A0D9	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-A7-A0DB	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1
+TCGA-A7-A13E	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-A7-A13F	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A03X	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A03Y	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AN-A046	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	1	0	1	0	1	1	0	0	1	0	1	0	1	0	0	1	1
+TCGA-AN-A049	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AN-A04A	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0AJ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0AK	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	1
+TCGA-AN-A0AM	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0AS	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0FD	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1
+TCGA-AN-A0FF	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0FJ	BRCA	0	WHITE	Stage IV	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0FK	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0FN	BRCA	0	WHITE	Stage I	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AN-A0FS	BRCA	0	WHITE	Stage I	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0FT	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0FY	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0XL	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AN-A0XO	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0XP	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0XR	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AN-A0XT	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AN-A0XV	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1
+TCGA-AN-A0XW	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	1
+TCGA-AO-A03L	BRCA	0	ASIAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A03M	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1
+TCGA-AO-A03N	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AO-A03O	BRCA	1	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A03P	BRCA	1	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A03R	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Normal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A03T	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Normal-like	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AO-A03V	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A0J3	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A0J7	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A0J8	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AO-A0J9	BRCA	0	WHITE	Stage III	Infiltrating Lobular Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AO-A0JA	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-AO-A0JB	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Normal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AO-A0JC	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A0JD	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AO-A0JF	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A0JG	BRCA	0	WHITE	Stage III	Other	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AO-A0JI	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A0JJ	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AO-A125	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A126	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A12A	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A12B	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AO-A12C	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AO-A12E	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AO-A12G	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AO-A12H	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AQ-A04L	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A0TP	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A0TQ	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Positive	Negative	Luminal B	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	1
+TCGA-AR-A0TT	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AR-A0TW	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1
+TCGA-AR-A0TY	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Negative	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1
+TCGA-AR-A0U2	BRCA	1	WHITE	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A0U3	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AH	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AJ	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-AR-A1AK	BRCA	0	WHITE	Stage I	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AR-A1AL	BRCA	0	WHITE	Stage III	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-AR-A1AN	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AO	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Normal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AR-A1AP	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AS	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AU	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AR-A1AV	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-AR-A1AW	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-AR-A1AX	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0I5	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0IA	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-B6-A0IB	BRCA	1	WHITE	Stage IV	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Positive	Luminal B	1	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-B6-A0IJ	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0IM	BRCA	1	BLACK OR AFRICAN AMERICAN	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-B6-A0IP	BRCA	1	WHITE	Stage I	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0RH	BRCA	1	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-B6-A0RI	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-B6-A0RL	BRCA	1	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0RO	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-B6-A0RQ	BRCA	1	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0RV	BRCA	0	WHITE	Stage III	Other	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0WS	BRCA	1	BLACK OR AFRICAN AMERICAN	Stage X	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-B6-A0WT	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-B6-A0WV	BRCA	1	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0WY	BRCA	1	WHITE	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Negative	Negative	Positive	Negative	Luminal A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-B6-A0WZ	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-B6-A0X4	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-B6-A0X5	BRCA	1	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0AU	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0AW	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Positive	Negative	HER2-enriched	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0AY	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0AZ	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0B0	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0B1	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0B4	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal A	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0B5	BRCA	0	WHITE	Stage III	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0B7	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0B8	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0BA	BRCA	0	WHITE	Stage III	Other	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0BC	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0BD	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0BF	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0BJ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0BM	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0BO	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0BP	BRCA	1	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1
+TCGA-BH-A0BQ	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0BR	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0BS	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0BT	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0BV	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0BZ	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1
+TCGA-BH-A0C0	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal B	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0C1	BRCA	0	WHITE	Stage III	Infiltrating Lobular Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0C3	BRCA	0	WHITE	Stage I	Other	WITH TUMOR	Positive	Negative	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0C7	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DD	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal B	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0DE	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DG	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DH	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DI	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0DK	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DL	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Basal-like	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0DO	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DP	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DQ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DS	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0DT	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0DX	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0DZ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0E1	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0E2	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0E7	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0E9	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	1
+TCGA-BH-A0EA	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0EB	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0EI	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0GY	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0GZ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-BH-A0H0	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0H3	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0H5	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-BH-A0H6	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0H7	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0H9	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0HA	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1
+TCGA-BH-A0HB	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0HF	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0HI	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0HK	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0HL	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0HN	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0HO	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0HP	BRCA	0	WHITE	Stage III	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	1
+TCGA-BH-A0HQ	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0HU	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0HW	BRCA	0	ASIAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal B	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A0HX	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A0W3	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0W4	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0W5	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A0W7	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A18F	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A18H	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A18I	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A18J	BRCA	0	WHITE	Stage IV	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Positive	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A18K	BRCA	1	WHITE	Stage I	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A18P	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Negative	Negative	Negative	Negative	HER2-enriched	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-BH-A18U	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-BH-A1EO	BRCA	1	WHITE	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-BH-A1ES	BRCA	1	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A1ET	BRCA	1	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-BH-A1EU	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-C8-A12N	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-C8-A12T	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Negative	Negative	HER2-enriched	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A12U	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-C8-A12W	BRCA	0	ASIAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A12X	BRCA	0	ASIAN	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-C8-A132	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A133	BRCA	0	WHITE	Stage III	Other	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-C8-A138	BRCA	0	ASIAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A1HG	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-C8-A1HI	BRCA	0	ASIAN	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-C8-A1HL	BRCA	0	ASIAN	Stage III	Other	TUMOR FREE	Positive	Negative	Positive	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-C8-A1HM	BRCA	0	ASIAN	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-D8-A13Y	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-D8-A140	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-D8-A145	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A106	BRCA	0	ASIAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A107	BRCA	0	WHITE	Stage III	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal B	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-E2-A108	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Positive	Negative	Normal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A109	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A10A	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A10B	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A10C	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1
+TCGA-E2-A10E	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A10F	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-E2-A14O	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A14Q	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A14S	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A14T	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A14V	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A14W	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Negative	Negative	Luminal B	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-E2-A14Y	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Negative	Negative	Basal-like	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A14Z	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	WITH TUMOR	Positive	Positive	Negative	Negative	Negative	Luminal A	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1
+TCGA-E2-A152	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Positive	Negative	Negative	HER2-enriched	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A153	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A154	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-E2-A155	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A156	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15A	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15C	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15D	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15E	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A15F	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15G	BRCA	0	WHITE	Stage II	Other	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15H	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15I	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15J	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-E2-A15K	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15L	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1
+TCGA-E2-A15M	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A15O	BRCA	0	BLACK OR AFRICAN AMERICAN	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15P	BRCA	0	WHITE	Stage I	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15R	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A15S	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Negative	Negative	Positive	Negative	Luminal B	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-E2-A15T	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A1B1	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Positive	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+TCGA-E2-A1B4	BRCA	0	WHITE	Stage III	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Positive	Negative	Luminal A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TCGA-E2-A1B5	BRCA	0	WHITE	Stage II	Infiltrating Lobular Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Basal-like	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1
+TCGA-E2-A1BD	BRCA	0	WHITE	Stage II	Infiltrating Ductal Carcinoma	TUMOR FREE	Positive	Positive	Negative	Negative	Negative	Luminal A	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1

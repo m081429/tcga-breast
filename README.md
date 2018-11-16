@@ -52,37 +52,85 @@ bazel-bin/tensorflow/tools/graph_transforms/summarize_graph \
 # infer.py
 ```
 ### Create TFRecords for Classification & Regression
-There are 2 types of features we are trying to predict: continuous and discrete.
+There are 2 types of features we are trying to predict: binary, and categorical
 
-Discrete features need to be converted into numerical representations before embedding. Need to also write out a *_labels.txt file to map back to original values
-For each feature in the phenotypes file, we need to embed the attribute into the TFRecord (if not null)
+Categorical & binary features need to be converted into numerical representations before embedding. Need to also write out a *_labels.txt file to map back to original values
 ```
 # create_classTFrecords.py
 ```
 
 # Train and Test on multiple phenotypes
 TFRecords can only be constructed if all variables are present. Using the features below, this leaves XX samples for training and XX samples for testing. 
-```
-#"age_at_initial_pathologic_diagnosis","race","ajcc_pathologic_tumor_stage","histological_type","initial_pathologic_dx_year","vital_status","tumor_status","PFI","PFI.time","ER.Status","PR.Status","HER2.Final.Status","Metastasis.Coded","PAM50.mRNA","Set","ATM_Mutations","BRCA1_Mutations","BRCA2_Mutations","CDH1_Mutations","CDKN2A_Mutations","PTEN_Mutations","TP53_Mutations","AnyGene_Mutations"
- [1] "age_at_initial_pathologic_diagnosis" "race"
- [3] "ajcc_pathologic_tumor_stage"         "histological_type"
- [5] "initial_pathologic_dx_year"          "vital_status"
- [7] "tumor_status"                        "PFI"
- [9] "PFI.time"                            "ER.Status"
-[11] "PR.Status"                           "HER2.Final.Status"
-[13] "Metastasis.Coded"                    "PAM50.mRNA"
-[15] "Set"                                 "ATM_Mutations"
-[17] "BRCA1_Mutations"                     "BRCA2_Mutations"
-[19] "CDH1_Mutations"                      "CDKN2A_Mutations"
-[21] "PTEN_Mutations"                      "TP53_Mutations"
-[23] "AnyGene_Mutations"
 
-```
+* Categorical
+ * race
+  * 0: White
+  * 1: Black
+  * 2: Asian
+ * ajcc_pathologic_tumor_stage
+  * 0: StageX
+  * 1: Stage1
+  * 2: Stage2
+  * 3: Stage3
+  * 4: Stage4
+ * PAM50.mRNA
+  * 0: Basal
+  * 1: HER2
+  * 2: LumA
+  * 3: LumB
+  * 4: Normal-like
+ * histological_type
+  * 0: Infiltrating Ductal Carcinoma
+  * 1: Infiltrating Lobular Carcinoma
+  * 2: Other
+
+* Binary
+ * tumor_status
+  * 0: TUMOR FREE
+  * 1: WITH TUMOR
+ * DeadInFiveyrs
+  * 0: No
+  * 1: Yes
+ * ER.Status
+  * 0: Negative
+  * 1: Positive
+ * PR.Status
+  * 0: Negative
+  * 1: Positive
+ * HER2.Final.Status
+  * 0: Negative
+  * 1: Positive
+ * Metastasis.Coded
+  * 0: Negative
+  * 1: Positive
+ * ATM_Mutations
+  * 0: Negative
+  * 1: Positive
+ * BRCA1_Mutations
+  * 0: Negative
+  * 1: Positive
+ * BRCA2_Mutations
+  * 0: Negative
+  * 1: Positive
+ * CDH1_Mutations
+  * 0: Negative
+  * 1: Positive
+ * CDKN2A_Mutations
+  * 0: Negative
+  * 1: Positive
+ * PTEN_Mutations
+  * 0: Negative
+  * 1: Positive
+ * TP53_Mutations
+  * 0: Negative
+  * 1: Positive
+ * AnyGene_Mutations
+  * 0: Negative
+  * 1: Positive
+
 Creating the TFRecords uses the following command
 ```
 # create_classTFrecords.py
 ```
 
-## Summarizing
-If any of the inferences are good (>75%), then consider creating new TFRecords and retraining with more data.
 
