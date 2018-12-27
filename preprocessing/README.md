@@ -2,10 +2,10 @@ Features to have in TFRecords
 
 
 - Categorical
-  - race
-    0. White
-    1. Black
-    2. Asian
+	- race
+		0. White
+		1. Black
+		2. Asian
 
   - ajcc_pathologic_tumor_stage
     0. StageX
