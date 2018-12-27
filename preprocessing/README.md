@@ -15,7 +15,7 @@ Features to have in TFRecords
   - 3: Stage3
   - 4: Stage4
 
-- pam50:mRNA
+- pam50_mRNA
   - 0: Basal
   - 1: HER2
   - 2: LumA
@@ -54,19 +54,19 @@ With the exception of `tumor_class`, all these variables come from the `phenotyp
   - 0: No
   - 1: Yes
 
-- ER.Status
+- ER_Status
   - 0: Negative
   - 1: Positive
 
-- PR:Status
+- PR_Status
   - 0: Negative
   - 1: Positive
 
-- HER2.Final.Status
+- HER2_Status
   - 0: Negative
   - 1: Positive
 
-- Metastasis.Coded
+- Metastasis_Coded
   - 0: Negative
   - 1: Positive
 

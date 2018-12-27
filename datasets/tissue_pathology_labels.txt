@@ -1,0 +1,4 @@
+0:Normal
+1:Benign
+2:InSitu
+3:Invasive
