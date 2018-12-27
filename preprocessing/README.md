@@ -1,26 +1,26 @@
 Features to have in TFRecords
 
 
-* Categorical
-  * race
-      0. White
-      1. Black
-      2. Asian
+- Categorical
+  - race
+    0. White
+    1. Black
+    2. Asian
 
-  * ajcc_pathologic_tumor_stage
+  - ajcc_pathologic_tumor_stage
     0. StageX
     1. Stage1
     2. Stage2
     3. Stage3
     4. Stage4
-  * pam50.mRNA
+  - pam50.mRNA
 
     0. Basal
     1. HER2
     2. LumA
     3. LumB
     4. Normal-like
-  * histological_type
+  - histological_type
 
     0. Normal (None are in BreakHis, none of the rest are in BACH)
     1. adenosis                  (A)
@@ -32,39 +32,39 @@ Features to have in TFRecords
     7. mucinous_carcinoma        (MC)
     8. papillary_carcinoma       (PC)
 
-  * tissue_pathology:
+  - tissue_pathology:
     0. Normal    (None are in BreakHis)
     1. Benign    (any Benign in BreakHis)
     2. InSitu    (None are in BreakHis)
     3. Invasive  (any Benign in BreakHis)
 
 
-* Binary
-  * tumor_class
+- Binary
+  - tumor_class
     0. Benign
     1. Malignant 
-  * tumor_status
+  - tumor_status
     0. TUMOR FREE
     1. WITH TUMOR
-  * DeadInFiveyrs
+  - DeadInFiveyrs
     0. No
     1. Yes
-  * ER.Status
+  - ER.Status
     0. Negative
     1. Positive
-  * PR.Status
+  - PR.Status
     0. Negative
     1. Positive
-  * HER2.Final.Status
+  - HER2.Final.Status
     0. Negative
     1. Positive
-  * Metastasis.Coded
+  - Metastasis.Coded
     0. Negative
     1. Positive
-  * ATM_Mutations
+  - ATM_Mutations
     0. Negative
     1. Positive
-  * BRCA1_Mutations
+  - BRCA1_Mutations
     0. Negative
     1. Positive
   BRCA2_Mutations
@@ -73,16 +73,16 @@ Features to have in TFRecords
   CDH1_Mutations
     0. Negative
     1. Positive
-  * CDKN2A_Mutations
+  - CDKN2A_Mutations
     0. Negative
     1. Positive
-  * PTEN_Mutations
+  - PTEN_Mutations
     0. Negative
     1. Positive
-  * TP53_Mutations
+  - TP53_Mutations
     0. Negative
     1. Positive
-  * AnyGene_Mutations
+  - AnyGene_Mutations
     0. Negative
     1. Positive
 
