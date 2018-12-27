@@ -6,9 +6,9 @@ Features to have in TFRecords
 <ul>
   <li> race </li>
    <ol start="0"> 
-   <li>White</li>
-   <li>Black</li>
-   <li>Asian</li>
+    <li>White</li>
+    <li>Black</li>
+    <li>Asian</li>
   </ol>
 </ul>
 
