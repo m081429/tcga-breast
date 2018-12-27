@@ -4,12 +4,13 @@ Features to have in TFRecords
 ## Categorical
 
 <ul>
-  <li> race </li>
-   <ol start="0"> 
-    <li>White</li>
-    <li>Black</li>
-    <li>Asian</li>
+ <li>race
+  <ol start="0"> 
+   <li>White</li>
+   <li>Black</li>
+   <li>Asian</li>
   </ol>
+ </li>
 </ul>
 
 2. ajcc_pathologic_tumor_stage
