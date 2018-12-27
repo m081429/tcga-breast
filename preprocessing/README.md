@@ -40,6 +40,8 @@ Features to have in TFRecords
   - 3: Invasive (any Benign in BreakHis)
 
 ## Binary
+With the exception of `tumor_class`, all these variables come from the `phenotype_data/phenotypes_withSet.tsv` file.
+
 - tumor_class
   - 0: Benign
   - 1: Malignant 
@@ -48,11 +50,11 @@ Features to have in TFRecords
   - 0: TUMOR FREE
   - 1: WITH TUMOR
 
-- DeadInFiveyrs
+- DeadInFiveYrs
   - 0: No
   - 1: Yes
 
-- ER:Status
+- ER.Status
   - 0: Negative
   - 1: Positive
 
