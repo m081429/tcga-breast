@@ -3,22 +3,26 @@ Features to have in TFRecords
 
 * Categorical
   * race
+
     0. White
     1. Black
     2. Asian
   * ajcc_pathologic_tumor_stage
+
     0. StageX
     1. Stage1
     2. Stage2
     3. Stage3
     4. Stage4
   * pam50.mRNA
+
     0. Basal
     1. HER2
     2. LumA
     3. LumB
     4. Normal-like
   * histological_type
+
     0. Normal (None are in BreakHis, none of the rest are in BACH)
     1. adenosis                  (A)
     2. fibroadenoma              (F)
