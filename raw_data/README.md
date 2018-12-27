@@ -24,3 +24,25 @@ Identify pixels in breast cancer tissues that are tumor.
 # Datasets
 
 
+BACH/
+├── breasthistology.zip
+├── Code [7]
+├── Test_data [37]
+└── Training_data
+    ├── Benign [71]
+    ├── In Situ [63]
+    ├── Invasive [62]
+    └── Normal [55]
+
+BrekHis
+├── benign			#Patients	#Images
+    ├── adenosis 		4		106		
+    ├── fibroadenoma    	10		237
+    ├── phyllodes_tumor 	3		115
+    └── tubular_adenoma 	7		130
+├── malignant
+    ├── ductal_carcinoma        38		788
+    ├── lobular_carcinoma       5		137
+    ├── mucinous_carcinoma      9		169
+    └── papillary_carcinoma     6		138
+
