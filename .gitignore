@@ -1,3 +1,6 @@
+raw_data/BreaKHis_v1.tar.gz
+raw_data/BreaKHis_v1/*
+raw_data/BACH/*
 raw_data/TCGA/svs/*
 raw_data/XML_TCGA_HG/*
 TFRecords/*
