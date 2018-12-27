@@ -1,9 +1,9 @@
 Features to have in TFRecords
 
 
-1. Categorical
+## Categorical
 
-<ol start="0"> race
+<ol start="0"> <h3>race</h3>
   <li>White</li>
   <li>Black</li>
   <li>Asian</li>
