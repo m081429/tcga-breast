@@ -5,13 +5,16 @@ Features to have in TFRecords
 
 <ul>
  <li>race
-  <ol start="0"> 
-   <li>White</li>
-   <li>Black</li>
-   <li>Asian</li>
-  </ol>
+  <ul> 
+   <li>0: White</li>
+   <li>1: Black</li>
+   <li>2: Asian</li>
+  </ul>
  </li>
 </ul>
+
+
+
 
 2. ajcc_pathologic_tumor_stage
      0. StageX
