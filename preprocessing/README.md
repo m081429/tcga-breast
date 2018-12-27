@@ -3,46 +3,37 @@ Features to have in TFRecords
 
 ## Categorical
 
-<ul>Categorical
- <li>race
-  <ul> 
-   <li>0: White</li>
-   <li>1: Black</li>
-   <li>2: Asian</li>
-  </ul>
- </li>
-</ul>
-
-
-
-
-2. ajcc_pathologic_tumor_stage
-     0. StageX
-     1. Stage1
-     2. Stage2
-     3. Stage3
-     4. Stage4
-  3. pam50.mRNA
-     0. Basal
-     1. HER2
-     2. LumA
-     3. LumB
-     4. Normallike
-  4. histological_type
-     0. Normal (None are in BreakHis, none of the rest are in BACH)
-     1. adenosis              (A)
-     2. fibroadenoma          (F)
-     3. phyllodes_tumor       (PT)
-     4. tubular_adenoma       (TA)
-     5. ductal_carcinoma      (DC)
-     6. lobular_carcinoma     (LC)
-     7. mucinous_carcinoma    (MC)
-     8. papillary_carcinoma   (PC)
-  5. tissue_pathology:
-     0. Normal   (None are in BreakHis)
-     1. Benign   (any Benign in BreakHis)
-     2. InSitu   (None are in BreakHis)
-     3. Invasive (any Benign in BreakHis)
+- race
+  - 0: White
+  - 1: Black
+  - 2: Asian
+- ajcc_pathologic_tumor_stage
+  - 0. StageX
+  - 1. Stage1
+  - 2. Stage2
+  - 3. Stage3
+  - 4. Stage4
+- pam50.mRNA
+  - 0. Basal
+  - 1. HER2
+  - 2. LumA
+  - 3. LumB
+  - 4. Normallike
+- histological_type
+  - 0. Normal (None are in BreakHis, none of the rest are in BACH)
+  - 1. adenosis              (A)
+  - 2. fibroadenoma          (F)
+  - 3. phyllodes_tumor       (PT)
+  - 4. tubular_adenoma       (TA)
+  - 5. ductal_carcinoma      (DC)
+  - 6. lobular_carcinoma     (LC)
+  - 7. mucinous_carcinoma    (MC)
+  - 8. papillary_carcinoma   (PC)
+- tissue_pathology:
+  - 0. Normal   (None are in BreakHis)
+  - 1. Benign   (any Benign in BreakHis)
+  - 2. InSitu   (None are in BreakHis)
+  - 3. Invasive (any Benign in BreakHis)
 
 
  Binary
