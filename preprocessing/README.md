@@ -3,7 +3,7 @@ Features to have in TFRecords
 
 ## Categorical
 
-<ul>
+<ul>Categorical
  <li>race
   <ul> 
    <li>0: White</li>
