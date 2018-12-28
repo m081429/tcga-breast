@@ -125,8 +125,8 @@ def image_to_tfexample_step1(image_data, image_format, height, width, image_name
                                                 ):
   return tf.train.Example(features=tf.train.Features(feature={
       'image/encoded': bytes_feature(image_data),
-      'image/format': bytes_feature(image_format),
-      'image/name': bytes_feature(image_name),
+      'image/format': bytes_feature(image_format.encode('utf8')),
+      'image/name': bytes_feature(image_name.encode('utf8')),
       'image/height': int64_feature(height),
       'image/width': int64_feature(width),
       'phenotype/histological_type': int64_feature(histological_type),

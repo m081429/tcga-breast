@@ -3,47 +3,47 @@ __author__ = "Naresh Prodduturi"
 __email__ = "prodduturi.naresh@mayo.edu"
 __status__ = "Dev"
 
-import cv2
+#import cv2
 import os
 import argparse
 import sys
 import pwd
 import time
 import subprocess
-import re
-import shutil
+#import re
+#import shutil
 from PIL import Image, ImageDraw
-Image.MAX_IMAGE_PIXELS = 2300000000    
+#Image.MAX_IMAGE_PIXELS = 2300000000    
 #Image.MAX_IMAGE_PIXELS = 5000000000    
-from scipy import stats
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
-import pickle
+#from scipy import stats
+#import xml.etree.ElementTree as ET
+#from xml.dom import minidom
+#import pickle
 import numpy as np
 #from openslide import open_slide
-import  openslide
-from openslide.deepzoom import DeepZoomGenerator
-import glob
-from shapely.geometry import Polygon, Point, MultiPoint
-from shapely.geometry import geo
-import math
-import matplotlib
-matplotlib.use('agg')
-import matplotlib.pyplot as plt
-from matplotlib.collections import PatchCollection
-import matplotlib.patches as patches
-from descartes.patch import PolygonPatch
-sys.path.append('/data/Naresh_Learning/wsi-sampler')
-from sampler import WsiSample
+#import  openslide
+#from openslide.deepzoom import DeepZoomGenerator
+#import glob
+#from shapely.geometry import Polygon, Point, MultiPoint
+#from shapely.geometry import geo
+#import math
+#import matplotlib
+#matplotlib.use('agg')
+#import matplotlib.pyplot as plt
+#from matplotlib.collections import PatchCollection
+#import matplotlib.patches as patches
+#from descartes.patch import PolygonPatch
+#sys.path.append('/data/Naresh_Learning/wsi-sampler')
+#from sampler import WsiSample
 #import matplotlib.nxutils as mn
-import geopandas as gpd
+#import geopandas as gpd
 import tensorflow as tf
-import pyproj    
-import shapely
-import shapely.ops as ops
-from shapely.geometry.polygon import Polygon
-from functools import partial
-
+#import pyproj    
+#import shapely
+#import shapely.ops as ops
+#from shapely.geometry.polygon import Polygon
+#from functools import partial
+import io
 
 tf_record_file="/data/Naresh_Learning/scripts/patches1/tfrecord.txt"
 tf_record_dir="/data/Naresh_Learning/scripts/patches1/tfrecord"
@@ -51,8 +51,8 @@ tf_record_dir="/data/Naresh_Learning/scripts/patches1/tfrecord"
 from dataset_utils import *
 def main():
 	#creating the tfrecord writers
-	training_writer=tf.python_io.TFRecordWriter(tf_record_dir+'train.tfrecords')
-	val_writer=tf.python_io.TFRecordWriter(tf_record_dir+'train.tfrecords')
+	training_writer=tf.python_io.TFRecordWriter(tf_record_dir+'/train.tfrecords')
+	val_writer=tf.python_io.TFRecordWriter(tf_record_dir+'/val.tfrecords')
 	#reading tf record file
 	fobj = open(tf_record_file)
 	header=fobj.readline()
@@ -78,13 +78,16 @@ def main():
 		# print("tissue path"+' '+tissue_path)
 		# print("Tumor class"+' '+Tumor_class)
 		ann_Img_tmp = Image.open(image_data)
-		M = np.array(ann_Img_tmp)
-		record=image_to_tfexample_step1(M,image_format,height,width,image_name,histological,tissue_path,Tumor_class)
-		sys.exit(0)
+		#M = np.array(ann_Img_tmp)
+		imgByteArr = io.BytesIO()
+		ann_Img_tmp.save(imgByteArr, format='PNG')
+		imgByteArr = imgByteArr.getvalue()
+		record=image_to_tfexample_step1(imgByteArr,image_format,int(height),int(width),image_name,int(histological),int(tissue_path),int(Tumor_class))
+		#sys.exit(0)
 		if tf_record_type =="train":
-			training_writer(record)
+			training_writer.write(record.SerializeToString())
 		if tf_record_type =="val":
-			val_writer(record)	
+			val_writer.write(record.SerializeToString())	
 	training_writer.close()
 	val_writer.close()	
 		
