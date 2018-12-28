@@ -32,12 +32,13 @@ Features to have in TFRecords
   - 6: lobular_carcinoma     (LC)
   - 7: mucinous_carcinoma    (MC)
   - 8: papillary_carcinoma   (PC)
+  - 9: other/unknown
 
 - tissue_pathology:
   - 0: Normal   (None are in BreakHis)
   - 1: Benign   (any Benign in BreakHis)
   - 2: InSitu   (None are in BreakHis)
-  - 3: Invasive (any Benign in BreakHis)
+  - 3: Invasive (any Malignant in BreakHis)
 
 ## Binary
 With the exception of `tumor_class`, all these variables come from the `phenotype_data/phenotypes_withSet.tsv` file.
