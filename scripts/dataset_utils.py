@@ -66,7 +66,7 @@ def float_feature(values):
   return tf.train.Feature(float_list=tf.train.FloatList(value=values))
 
 
-def image_to_tfexample(image_data, image_format, height, width,
+def image_to_tfexample(image_data, image_format, height, width, image_name,
 			race=None,
 			ajcc_pathologic_tumor_stage=None,
 			pam50_mRNA=None,
@@ -91,6 +91,7 @@ def image_to_tfexample(image_data, image_format, height, width,
   return tf.train.Example(features=tf.train.Features(feature={
       'image/encoded': bytes_feature(image_data),
       'image/format': bytes_feature(image_format),
+      'image/name': bytes_feature(image_name),
       'image/height': int64_feature(height),
       'image/width': int64_feature(width),
       'phenotype/race': int64_feature(race),
@@ -117,10 +118,23 @@ def image_to_tfexample(image_data, image_format, height, width,
   }))
 
 
+def image_to_tfexample_step1(image_data, image_format, height, width, image_name,
+                        histological_type=None,
+                        tissue_pathology=None,
+                        tumor_class=None
+                                                ):
+  return tf.train.Example(features=tf.train.Features(feature={
+      'image/encoded': bytes_feature(image_data),
+      'image/format': bytes_feature(image_format),
+      'image/name': bytes_feature(image_name),
+      'image/height': int64_feature(height),
+      'image/width': int64_feature(width),
+      'phenotype/histological_type': int64_feature(histological_type),
+      'phenotype/tissue_pathology': int64_feature(tissue_pathology),
+      'phenotype/tumor_class': int64_feature(tumor_class)
 
-
-
-def read_label_file(dataset_dir, filename=LABELS_FILENAME):
+  }))
+def read_label_file(dataset_dir, filename):
   """Reads the labels file and returns a mapping from ID to class name.
 
   Args:
