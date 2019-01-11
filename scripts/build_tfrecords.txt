@@ -1,0 +1,22 @@
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v1_2016_08_28/inception_v1.ckpt	inception_v1	InceptionV1
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v2_2016_08_28/inception_v2.ckpt	inception_v2	InceptionV2
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v3_2016_08_28/inception_v3.ckpt	inception_v3	InceptionV3
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v4_2016_09_09/inception_v4.ckpt	inception_v4	InceptionV4
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_resnet_v2_2016_08_30/inception_resnet_v2_2016_08_30.ckpt	InceptionResnetV2
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_50_2016_08_28/resnet_v1_50.ckpt	resnet_v1_50	resnet_v1
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt	resnet_v1_101	resnet_v1
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_152_2016_08_28/resnet_v1_152.ckpt	resnet_v1_152	resnet_v1
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_50_2017_04_14/resnet_v2_50.ckpt	resnet_v2_50	resnet_v2
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_101_2017_04_14/resnet_v2_101.ckpt	resnet_v2_101	resnet_v2
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_152_2017_04_14/resnet_v2_152.ckpt	resnet_v2_152	resnet_v2
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/vgg_16_2016_08_28/vgg_16.ckpt	vgg_16	vgg_16
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/vgg_19_2016_08_28/vgg_19.ckpt	vgg_19	vgg_19
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_1.0_224/mobilenet_v1_1.0_224.ckpt.data-00000-of-00001	mobilenet_v1	MobilenetV1
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_0.5_160/mobilenet_v1_0.5_160.ckpt.data-00000-of-00001	mobilenet_v1_050	MobilenetV1
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_0.25_128/mobilenet_v1_0.25_128.ckpt.data-00000-of-00001	mobilenet_v1_025	MobilenetV1
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.4_224/mobilenet_v2_1.4_224.ckpt.data-00000-of-00001	mobilenet_v2	MobilenetV2		
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224.ckpt.data-00000-of-00001	mobilenet_v2_140	MobilenetV2
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/nasnet-a_mobile_04_10_2017/model.ckpt.data-00000-of-00001	nasnet_mobile	aux_logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/nasnet-a_large_04_10_2017/model.ckpt.data-00000-of-00001	nasnet_large	aux_logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/pnasnet-5_large_2017_12_13/model.ckpt.data-00000-of-00001	pnasnet_large	aux_logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/pnasnet-5_mobile_2017_12_13/model.ckpt.data-00000-of-00001	pnasnet_mobile	aux_logits

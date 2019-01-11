@@ -51,8 +51,10 @@ tf_record_dir="/data/Naresh_Learning/scripts/patches1/tfrecord"
 from dataset_utils import *
 def main():
 	#creating the tfrecord writers
-	training_writer=tf.python_io.TFRecordWriter(tf_record_dir+'/train.tfrecords')
-	val_writer=tf.python_io.TFRecordWriter(tf_record_dir+'/val.tfrecords')
+	training_writer1=tf.python_io.TFRecordWriter(tf_record_dir+'/bh_bach_train_bach.tfrecords')
+	training_writer2=tf.python_io.TFRecordWriter(tf_record_dir+'/bh_bach_train_bh.tfrecords')
+	val_writer1=tf.python_io.TFRecordWriter(tf_record_dir+'/bh_bach_val_bach.tfrecords')
+	val_writer2=tf.python_io.TFRecordWriter(tf_record_dir+'/bh_bach_val_bh.tfrecords')
 	#reading tf record file
 	fobj = open(tf_record_file)
 	header=fobj.readline()
@@ -85,11 +87,18 @@ def main():
 		record=image_to_tfexample_step1(imgByteArr,image_format,int(height),int(width),image_name,int(histological),int(tissue_path),int(Tumor_class))
 		#sys.exit(0)
 		if tf_record_type =="train":
-			training_writer.write(record.SerializeToString())
-		if tf_record_type =="val":
-			val_writer.write(record.SerializeToString())	
-	training_writer.close()
-	val_writer.close()	
-		
+			if '_BH_' in image_name:
+				training_writer2.write(record.SerializeToString())
+			else:
+				training_writer1.write(record.SerializeToString())
+		if tf_record_type =="val": 
+			if '_BH_' in image_name:
+				val_writer2.write(record.SerializeToString())
+			else:
+				val_writer1.write(record.SerializeToString())
+	training_writer1.close()
+	training_writer2.close()
+	val_writer1.close()	
+	val_writer2.close()		
 if __name__ == "__main__":
 	main()
