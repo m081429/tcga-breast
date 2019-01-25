@@ -31,13 +31,13 @@ do
 		 --trainable_scopes=${SCOPE}/Logits,${SCOPE}/AuxLogits \
 		 --preprocessing_name bh_bach \
 		 --optimizer rmsprop \
-		 --learning_rate 0.01 
+		 --learning_rate 0.01 \
+                 --train_image_size 512  
 		ret=$?
 		if [ $ret -ne 0 ]; then
 			echo "training step failed"
 			exit 1
 		fi
-
 		python /data/Naresh_Learning/scripts/models/research/slim/eval_image_classifier.py \
 		--checkpoint_path ${TRAIN_LOGDIR} \
 		--eval_dir ${EVAL_LOGDIR} \
