@@ -2,14 +2,90 @@
 
 Image classification on BACH Breakhis dataset
 
-## 0. Initialize variables
+## 0. Datasets
+```
+BACH Dataset
+Data labels
+i)	In Situ ( Classified as Tumor) [63 Images]
+ii)	Invasive ( Classified as Tumor)[62 Images]
+iii)	Benign (Classified as Normal) [ 71 Images]
+iv) 	Normal (Classified as Normal) [55 Images]
+v)	Test data [Include 4 classes][36 Images]
+Image size : 1536 X 2048  (12 512X512 image patches)
+
+BreaKHis Dataset
+	Data  labels
+	i) Malignant (1232 Images)[58 samples]
+	ii) Benign ( 588 Images)[24 samples]
+Image size: 700 x 460 (Resize to 512 X 512 Image)
+
 ```
 
+## 1. Preprocessing
+```
+Script to create image patches
+image_classification_BACH_BreakHIS_preprocess.py
+
 ```
 
-## 1. Parse WSI into image patches or split up large hand-crafted jpegs to be 299x299
+## 2. Create TF Records
+```
+Script to create TF Records including eval datasets
+image_classification_BACH_BreakHIS_create_tfrecord.py
+
 ```
 
+## 3. Running all models & check points from models/slim to identify best performing model
+```
+Downloaded all the models and checkpoints from https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models
+
+Different models
+ cat run_models.txt
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v4_2016_09_09/inception_v4.ckpt        inception_v4    InceptionV4/Logits,InceptionV4/AuxLogits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v1_2016_08_28/inception_v1.ckpt        inception_v1    InceptionV1/Logits,InceptionV1/AuxLogits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v2_2016_08_28/inception_v2.ckpt        inception_v2    InceptionV2/Logits,InceptionV2/AuxLogits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v3_2016_08_28/inception_v3.ckpt        inception_v3    InceptionV3/Logits,InceptionV3/AuxLogits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_resnet_v2_2016_08_30/inception_resnet_v2_2016_08_30.ckpt       inception_resnet_v2     InceptionResnetV2/Logits,InceptionResnetV2/AuxLogits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_50_2016_08_28/resnet_v1_50.ckpt        resnet_v1_50    resnet_v1_50/logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt      resnet_v1_101   resnet_v1_101/logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_152_2016_08_28/resnet_v1_152.ckpt      resnet_v1_152   resnet_v1_152/logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_50_2017_04_14/resnet_v2_50.ckpt        resnet_v2_50    resnet_v2_50/logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_101_2017_04_14/resnet_v2_101.ckpt      resnet_v2_101   resnet_v2_101/logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_152_2017_04_14/resnet_v2_152.ckpt      resnet_v2_152   resnet_v2_152/logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_1.0_224/mobilenet_v1_1.0_224.ckpt   mobilenet_v1    MobilenetV1/Logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_0.5_160/mobilenet_v1_0.5_160.ckpt   mobilenet_v1_050        MobilenetV1/Logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_0.25_128/mobilenet_v1_0.25_128.ckpt mobilenet_v1_025        MobilenetV1/Logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.4_224/mobilenet_v2_1.4_224.ckpt   mobilenet_v2    MobilenetV2/Logits,MobilenetV2/Predictions,MobilenetV2/predics
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224.ckpt   mobilenet_v2_140        MobilenetV2/Logits,MobilenetV2/Predictions,MobilenetV2/predics
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/vgg_16_2016_08_28/vgg_16.ckpt    vgg_16  vgg_16
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/vgg_19_2016_08_28/vgg_19.ckpt    vgg_19  vgg_19
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/nasnet-a_mobile_04_10_2017/model.ckpt.data-00000-of-00001        nasnet_mobile   aux_logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/nasnet-a_large_04_10_2017/model.ckpt.data-00000-of-00001 nasnet_large    aux_logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/pnasnet-5_large_2017_12_13/model.ckpt.data-00000-of-00001        pnasnet_large   aux_logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/pnasnet-5_mobile_2017_12_13/model.ckpt.data-00000-of-00001       pnasnet_mobile  aux_logits
+
+Specific changes needed to run the models
+inception_v4 : no Changes was needed as initial script was build on this one (Image size 512 X 512)
+inception_v1 : image resize was needed to 224 X 244
+inception_v2 : image resize was needed to 224 X 244
+inception_v3 : image resize was needed to 224 X 244
+inception_resnet_v2 : image resize was needed to 299 X 299
+resnet_v1_50
+resnet_v1_101
+resnet_v1_152
+resnet_v2_50
+resnet_v2_101
+resnet_v2_152
+mobilenet_v1
+mobilenet_v1_050
+mobilenet_v1_025
+mobilenet_v2 : In mobilenet_v2.py, change from depth_multiplier=1.4 to depth_multiplier=1 (https://stackoverflow.com/questions/49680440/tf-slim-fine-tune-mobilenet-v2-on-custom-dataset?rq=1)
+mobilenet_v2_140 : 
+vgg_16
+vgg_19
+nasnet_mobile
+nasnet_large
+pnasnet_large
+pnasnet_mobile
 
 ```
-
