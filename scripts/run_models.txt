@@ -12,8 +12,8 @@
 /data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_1.0_224/mobilenet_v1_1.0_224.ckpt	mobilenet_v1	MobilenetV1/Logits
 /data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_0.5_160/mobilenet_v1_0.5_160.ckpt	mobilenet_v1_050	MobilenetV1/Logits
 /data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_0.25_128/mobilenet_v1_0.25_128.ckpt	mobilenet_v1_025	MobilenetV1/Logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.4_224/mobilenet_v2_1.4_224.ckpt	mobilenet_v2	MobilenetV2/Logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224.ckpt	mobilenet_v2_140	MobilenetV2/Logits
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.4_224/mobilenet_v2_1.4_224.ckpt	mobilenet_v2	MobilenetV2/Logits,MobilenetV2/Predictions,MobilenetV2/predics
+/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224.ckpt	mobilenet_v2_140	MobilenetV2/Logits,MobilenetV2/Predictions,MobilenetV2/predics
 /data/Naresh_Learning/scripts/models/research/slim/checkpoints/vgg_16_2016_08_28/vgg_16.ckpt	vgg_16	vgg_16
 /data/Naresh_Learning/scripts/models/research/slim/checkpoints/vgg_19_2016_08_28/vgg_19.ckpt	vgg_19	vgg_19
 /data/Naresh_Learning/scripts/models/research/slim/checkpoints/nasnet-a_mobile_04_10_2017/model.ckpt.data-00000-of-00001	nasnet_mobile	aux_logits
