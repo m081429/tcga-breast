@@ -5,7 +5,7 @@ IMAGE_SIZE=512
 DATASET_NAME=bh_bach
 LOGDIR=/data/Naresh_Learning/results/bh_bach
 IFS=$'\n'
-for i in `cat /data/Naresh_Learning/scripts/tcga-breast/scripts/run_models.txt|head -15|tail -1`
+for i in `cat /data/Naresh_Learning/scripts/tcga-breast/scripts/run_models.txt|tail -3|head -1`
 do
 	CHECK_POINT_PATH=`echo $i|cut -f1`
 	MODELNAME=`echo $i|cut -f2`
@@ -32,7 +32,7 @@ do
 		 --preprocessing_name bh_bach \
 		 --optimizer rmsprop \
 		 --learning_rate 0.01 \
-                 --train_image_size 512  
+         --train_image_size 512  
 		ret=$?
 		if [ $ret -ne 0 ]; then
 			echo "training step failed"

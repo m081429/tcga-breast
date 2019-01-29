@@ -65,27 +65,27 @@ Different models
 /data/Naresh_Learning/scripts/models/research/slim/checkpoints/pnasnet-5_mobile_2017_12_13/model.ckpt.data-00000-of-00001       pnasnet_mobile  aux_logits
 
 Specific changes needed to run the models
-inception_v4 : no Changes was needed as initial script was build on this one (Image size 512 X 512)
-inception_v1 : image resize was needed to 224 X 244
-inception_v2 : image resize was needed to 224 X 244
-inception_v3 : image resize was needed to 224 X 244
+inception_v4_old : no Changes was needed as initial script was build on this one (Image size 512 X 512)
+inception_v1 : image resize was needed to 224 X 224
+inception_v2 : image resize was needed to 224 X 224
+inception_v3 : image resize was needed to 224 X 224
 inception_resnet_v2 : image resize was needed to 299 X 299
-resnet_v1_50
-resnet_v1_101
-resnet_v1_152
-resnet_v2_50
-resnet_v2_101
-resnet_v2_152
-mobilenet_v1
-mobilenet_v1_050
-mobilenet_v1_025
-mobilenet_v2 : In mobilenet_v2.py, change from depth_multiplier=1.4 to depth_multiplier=1 (https://stackoverflow.com/questions/49680440/tf-slim-fine-tune-mobilenet-v2-on-custom-dataset?rq=1)
-mobilenet_v2_140 : 
+resnet_v1_50 : image resize was needed to 224 X 224
+resnet_v1_101 : image resize was needed to 224 X 224
+resnet_v1_152 : image resize was needed to 224 X 224
+resnet_v2_50 : image resize was needed to 224 X 224
+resnet_v2_101 : image resize was needed to 224 X 224
+resnet_v2_152 : image resize was needed to 224 X 224
+mobilenet_v1 : image resize was needed to 224 X 224
+mobilenet_v1_050 : image resize was needed to 224 X 224
+mobilenet_v1_025 : image resize was needed to 224 X 224
+mobilenet_v2 : image resize was needed to 224 X 224 In mobilenet_v2.py, change from depth_multiplier=1 to depth_multiplier=1.4 (https://stackoverflow.com/questions/49680440/tf-slim-fine-tune-mobilenet-v2-on-custom-dataset?rq=1)
+mobilenet_v2_140 : image resize was needed to 224 X 224 In mobilenet_v2.py, change from depth_multiplier=1.4 to depth_multiplier=1
 vgg_16
 vgg_19
-nasnet_mobile
-nasnet_large
-pnasnet_large
-pnasnet_mobile
-
+nasnet_mobile:image resize was needed to 224 X 224
+nasnet_large:image resize was needed to 331 X 331
+pnasnet_large:image resize was needed to 331 X 331
+pnasnet_mobile:image resize was needed to 224 X 224
+inception_v4 : image resize was needed to 224 X 224
 ```
