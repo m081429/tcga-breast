@@ -81,8 +81,8 @@ mobilenet_v1_050 : image resize was needed to 224 X 224
 mobilenet_v1_025 : image resize was needed to 224 X 224
 mobilenet_v2 : image resize was needed to 224 X 224 In mobilenet_v2.py, change from depth_multiplier=1 to depth_multiplier=1.4 (https://stackoverflow.com/questions/49680440/tf-slim-fine-tune-mobilenet-v2-on-custom-dataset?rq=1)
 mobilenet_v2_140 : image resize was needed to 224 X 224 In mobilenet_v2.py, change from depth_multiplier=1.4 to depth_multiplier=1
-vgg_16
-vgg_19
+vgg_16 : image resize was needed to 224 X 224 
+vgg_19 : image resize was needed to 224 X 224
 nasnet_mobile:image resize was needed to 224 X 224
 nasnet_large:image resize was needed to 331 X 331
 pnasnet_large:image resize was needed to 331 X 331
