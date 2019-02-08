@@ -41,28 +41,28 @@ Downloaded all the models and checkpoints from https://github.com/tensorflow/mod
 
 Different models
  cat run_models.txt
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v4_2016_09_09/inception_v4.ckpt        inception_v4    InceptionV4/Logits,InceptionV4/AuxLogits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v1_2016_08_28/inception_v1.ckpt        inception_v1    InceptionV1/Logits,InceptionV1/AuxLogits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v2_2016_08_28/inception_v2.ckpt        inception_v2    InceptionV2/Logits,InceptionV2/AuxLogits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_v3_2016_08_28/inception_v3.ckpt        inception_v3    InceptionV3/Logits,InceptionV3/AuxLogits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/inception_resnet_v2_2016_08_30/inception_resnet_v2_2016_08_30.ckpt       inception_resnet_v2     InceptionResnetV2/Logits,InceptionResnetV2/AuxLogits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_50_2016_08_28/resnet_v1_50.ckpt        resnet_v1_50    resnet_v1_50/logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt      resnet_v1_101   resnet_v1_101/logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v1_152_2016_08_28/resnet_v1_152.ckpt      resnet_v1_152   resnet_v1_152/logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_50_2017_04_14/resnet_v2_50.ckpt        resnet_v2_50    resnet_v2_50/logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_101_2017_04_14/resnet_v2_101.ckpt      resnet_v2_101   resnet_v2_101/logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/resnet_v2_152_2017_04_14/resnet_v2_152.ckpt      resnet_v2_152   resnet_v2_152/logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_1.0_224/mobilenet_v1_1.0_224.ckpt   mobilenet_v1    MobilenetV1/Logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_0.5_160/mobilenet_v1_0.5_160.ckpt   mobilenet_v1_050        MobilenetV1/Logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v1_0.25_128/mobilenet_v1_0.25_128.ckpt mobilenet_v1_025        MobilenetV1/Logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.4_224/mobilenet_v2_1.4_224.ckpt   mobilenet_v2    MobilenetV2/Logits,MobilenetV2/Predictions,MobilenetV2/predics
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224.ckpt   mobilenet_v2_140        MobilenetV2/Logits,MobilenetV2/Predictions,MobilenetV2/predics
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/vgg_16_2016_08_28/vgg_16.ckpt    vgg_16  vgg_16
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/vgg_19_2016_08_28/vgg_19.ckpt    vgg_19  vgg_19
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/nasnet-a_mobile_04_10_2017/model.ckpt.data-00000-of-00001        nasnet_mobile   aux_logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/nasnet-a_large_04_10_2017/model.ckpt.data-00000-of-00001 nasnet_large    aux_logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/pnasnet-5_large_2017_12_13/model.ckpt.data-00000-of-00001        pnasnet_large   aux_logits
-/data/Naresh_Learning/scripts/models/research/slim/checkpoints/pnasnet-5_mobile_2017_12_13/model.ckpt.data-00000-of-00001       pnasnet_mobile  aux_logits
+/inception_v4_2016_09_09/inception_v4.ckpt        inception_v4    InceptionV4/Logits,InceptionV4/AuxLogits
+/inception_v1_2016_08_28/inception_v1.ckpt        inception_v1    InceptionV1/Logits,InceptionV1/AuxLogits
+/inception_v2_2016_08_28/inception_v2.ckpt        inception_v2    InceptionV2/Logits,InceptionV2/AuxLogits
+/inception_v3_2016_08_28/inception_v3.ckpt        inception_v3    InceptionV3/Logits,InceptionV3/AuxLogits
+/inception_resnet_v2_2016_08_30/inception_resnet_v2_2016_08_30.ckpt       inception_resnet_v2     InceptionResnetV2/Logits,InceptionResnetV2/AuxLogits
+/resnet_v1_50_2016_08_28/resnet_v1_50.ckpt        resnet_v1_50    resnet_v1_50/logits
+/resnet_v1_101_2016_08_28/resnet_v1_101.ckpt      resnet_v1_101   resnet_v1_101/logits
+/resnet_v1_152_2016_08_28/resnet_v1_152.ckpt      resnet_v1_152   resnet_v1_152/logits
+/resnet_v2_50_2017_04_14/resnet_v2_50.ckpt        resnet_v2_50    resnet_v2_50/logits
+/resnet_v2_101_2017_04_14/resnet_v2_101.ckpt      resnet_v2_101   resnet_v2_101/logits
+/resnet_v2_152_2017_04_14/resnet_v2_152.ckpt      resnet_v2_152   resnet_v2_152/logits
+/mobilenet_v1_1.0_224/mobilenet_v1_1.0_224.ckpt   mobilenet_v1    MobilenetV1/Logits
+/mobilenet_v1_0.5_160/mobilenet_v1_0.5_160.ckpt   mobilenet_v1_050        MobilenetV1/Logits
+/mobilenet_v1_0.25_128/mobilenet_v1_0.25_128.ckpt mobilenet_v1_025        MobilenetV1/Logits
+/mobilenet_v2_1.4_224/mobilenet_v2_1.4_224.ckpt   mobilenet_v2    MobilenetV2/Logits,MobilenetV2/Predictions,MobilenetV2/predics
+/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224.ckpt   mobilenet_v2_140        MobilenetV2/Logits,MobilenetV2/Predictions,MobilenetV2/predics
+/vgg_16_2016_08_28/vgg_16.ckpt    vgg_16  vgg_16
+/vgg_19_2016_08_28/vgg_19.ckpt    vgg_19  vgg_19
+/nasnet-a_mobile_04_10_2017/model.ckpt.data-00000-of-00001        nasnet_mobile   aux_logits
+/nasnet-a_large_04_10_2017/model.ckpt.data-00000-of-00001 nasnet_large    aux_logits
+/pnasnet-5_large_2017_12_13/model.ckpt.data-00000-of-00001        pnasnet_large   aux_logits
+/pnasnet-5_mobile_2017_12_13/model.ckpt.data-00000-of-00001       pnasnet_mobile  aux_logits
 
 Specific changes needed to run the models
 inception_v4_old : no Changes was needed as initial script was build on this one (Image size 512 X 512)
@@ -88,4 +88,21 @@ nasnet_large:image resize was needed to 331 X 331
 pnasnet_large:image resize was needed to 331 X 331
 pnasnet_mobile:image resize was needed to 224 X 224
 inception_v4 : image resize was needed to 224 X 224
+```
+
+## 4. Selecting top 3 performing model and fine tuning last tensors with 1e-6 learning rate
+```
+	Selecting top 3 performing models
+	i)	Resnet v1 152 0.7750 at 100k step
+	ii)	Resnet v1 50 0.7750 at 100k step
+	iii) Resnet v2 50 0.7535 at 100k step
+	
+	Used tensor board to select the final tensors for fine tuning
+	TensorBoard -> Graphs ->  select Train Run -> double click "model" (resnet_v2_50)
+	
+	Other way to look at the tensornames in the checkpoint files "print_tensors_from_ckpt.py"
+	
+	
+	Fine tuning script "retrain_models.sh" config "retrain_models.cfg" input params "run_models.txt"
+	Output log directories folders with name *"_FineTune"
 ```
