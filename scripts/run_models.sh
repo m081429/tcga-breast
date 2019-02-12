@@ -4,7 +4,7 @@ cd $SCRIPTS
 source run_models.cfg
 
 IFS=$'\n'
-for i in `cat $SCRIPTS/run_models.txt|tail -5|head -1`
+for i in `cat $SCRIPTS/run_models.txt|head -1`
 do
 	CHECK_POINT_PATH=`echo $i|cut -f1`
 	MODELNAME=`echo $i|cut -f2`

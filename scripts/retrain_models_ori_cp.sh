@@ -4,13 +4,14 @@ cd $SCRIPTS
 source retrain_models.cfg
 
 IFS=$'\n'
-for i in `cat $SCRIPTS/retrain_models.txt|tail -2`
+for i in `cat $SCRIPTS/retrain_models_ori_cp.txt|head -1`
 do
 	CHECK_POINT_PATH=`echo $i|cut -f1`
 	MODELNAME=`echo $i|cut -f2`
 	SCOPE=`echo $i|cut -f3`
-	TRAIN_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune/train"
-	EVAL_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune/eval"
+	CH_SCOPE=`echo $i|cut -f4`
+	TRAIN_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune_new_tr_scope/train"
+	EVAL_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune_new_tr_scope/eval"
 	mkdir -p $LOGDIR"/"$MODELNAME
 	for ((step=10000;step<=100000;step=step+10000)); 
 	do
@@ -26,7 +27,7 @@ do
 		 --max_number_of_steps ${step} \
 		 --batch_size 32 \
 		 --checkpoint_path $CHECK_POINT_PATH \
-		 --checkpoint_exclude_scopes=${SCOPE} \
+		 --checkpoint_exclude_scopes=${CH_SCOPE} \
 		 --trainable_scopes=${SCOPE} \
 		 --preprocessing_name bh_bach \
 		 --optimizer rmsprop \
