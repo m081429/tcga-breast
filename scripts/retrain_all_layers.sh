@@ -4,14 +4,14 @@ cd $SCRIPTS
 source retrain_models.cfg
 
 IFS=$'\n'
-for i in `cat $SCRIPTS/retrain_models_ori_cp.txt|tail -2`
+for i in `cat $SCRIPTS/retrain_all_layers.txt|tail -2`
 do
 	CHECK_POINT_PATH=`echo $i|cut -f1`
 	MODELNAME=`echo $i|cut -f2`
 	SCOPE=`echo $i|cut -f3`
 	CH_SCOPE=`echo $i|cut -f4`
-	TRAIN_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune_new_tr_scope_learn_rate_1e_3/train"
-	EVAL_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune_new_tr_scope_learn_rate_1e_3/eval"
+	TRAIN_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune_no_tr_scope_learn_rate_1e_3/train"
+	EVAL_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune_no_tr_scope_learn_rate_1e_3/eval"
 	mkdir -p $LOGDIR"/"$MODELNAME
 	for ((step=10000;step<=100000;step=step+10000)); 
 	do

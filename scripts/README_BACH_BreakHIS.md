@@ -100,12 +100,29 @@ inception_v4 : image resize was needed to 224 X 224
 	Used tensor board to select the final tensors for fine tuning
 	TensorBoard -> Graphs ->  select Train Run -> double click "model" (resnet_v2_50)
 	
-	Other way to look at the tensornames in the checkpoint files "print_tensors_from_ckpt.py"
+	Other way to look at the tensornames in the checkpoint files by using the script "print_tensors_from_ckpt.py"
 	
+	"print_tensors_from_ckpt.py"
+	from tensorflow.python.tools.inspect_checkpoint import print_tensors_in_checkpoint_file
+	check_point=sys.argv[1]
+	print_tensors_in_checkpoint_file(file_name=check_point, tensor_name='', all_tensors=True, all_tensor_names=True)
 	
 	Fine tuning script "retrain_models.sh" config "retrain_models.cfg" input params "run_models.txt"
 	Output log directories folders with name *"_FineTune"
 	Log dir "_FineTune" : both --checkpoint_exclude_scopes and --trainable_scopes as value "resnet_v1_152/block4,resnet_v1_152/logits"
 	Log dir "_FineTune_new_tr_scope_new_chk_ex_scope" : both --checkpoint_exclude_scopes and --trainable_scopes as value "resnet_v1_152/block4/unit_1/bottleneck_v1/conv1,resnet_v1_152/block4/unit_1/bottleneck_v1/conv2,resnet_v1_152/block4/unit_1/bottleneck_v1/conv3,resnet_v1_152/block4/unit_1/bottleneck_v1/shortcut,resnet_v1_152/block4/unit_2/bottleneck_v1/conv1,resnet_v1_152/block4/unit_2/bottleneck_v1/conv2,resnet_v1_152/block4/unit_2/bottleneck_v1/conv3,resnet_v1_152/block4/unit_3/bottleneck_v1/conv1,resnet_v1_152/block4/unit_3/bottleneck_v1/conv2,resnet_v1_152/block4/unit_3/bottleneck_v1/conv3,resnet_v1_152/conv1,resnet_v1_152/logits"
 	Log dir "_FineTune_new_tr_scope" :  --checkpoint_exclude_scopes as "resnet_v1_152/logits" and --trainable_scopes as value "resnet_v1_152/block4/unit_1/bottleneck_v1/conv1,resnet_v1_152/block4/unit_1/bottleneck_v1/conv2,resnet_v1_152/block4/unit_1/bottleneck_v1/conv3,resnet_v1_152/block4/unit_1/bottleneck_v1/shortcut,resnet_v1_152/block4/unit_2/bottleneck_v1/conv1,resnet_v1_152/block4/unit_2/bottleneck_v1/conv2,resnet_v1_152/block4/unit_2/bottleneck_v1/conv3,resnet_v1_152/block4/unit_3/bottleneck_v1/conv1,resnet_v1_152/block4/unit_3/bottleneck_v1/conv2,resnet_v1_152/block4/unit_3/bottleneck_v1/conv3,resnet_v1_152/conv1,resnet_v1_152/logits"
+	Log dir "_FineTune_new_tr_scope_learn_rate_1e-3" :  Learning rate 1e-3, --checkpoint_exclude_scopes as "resnet_v1_152/logits" and --trainable_scopes as value "resnet_v1_152/block4/unit_1/bottleneck_v1/conv1,resnet_v1_152/block4/unit_1/bottleneck_v1/conv2,resnet_v1_152/block4/unit_1/bottleneck_v1/conv3,resnet_v1_152/block4/unit_1/bottleneck_v1/shortcut,resnet_v1_152/block4/unit_2/bottleneck_v1/conv1,resnet_v1_152/block4/unit_2/bottleneck_v1/conv2,resnet_v1_152/block4/unit_2/bottleneck_v1/conv3,resnet_v1_152/block4/unit_3/bottleneck_v1/conv1,resnet_v1_152/block4/unit_3/bottleneck_v1/conv2,resnet_v1_152/block4/unit_3/bottleneck_v1/conv3,resnet_v1_152/conv1,resnet_v1_152/logits"
+	Log dir "_FineTune_new_tr_scope_learn_rate_1e-4" :  Learning rate 1e-4, --checkpoint_exclude_scopes as "resnet_v1_152/logits" and --trainable_scopes as value "resnet_v1_152/block4/unit_1/bottleneck_v1/conv1,resnet_v1_152/block4/unit_1/bottleneck_v1/conv2,resnet_v1_152/block4/unit_1/bottleneck_v1/conv3,resnet_v1_152/block4/unit_1/bottleneck_v1/shortcut,resnet_v1_152/block4/unit_2/bottleneck_v1/conv1,resnet_v1_152/block4/unit_2/bottleneck_v1/conv2,resnet_v1_152/block4/unit_2/bottleneck_v1/conv3,resnet_v1_152/block4/unit_3/bottleneck_v1/conv1,resnet_v1_152/block4/unit_3/bottleneck_v1/conv2,resnet_v1_152/block4/unit_3/bottleneck_v1/conv3,resnet_v1_152/conv1,resnet_v1_152/logits"
+	Log dir "_FineTune_new_tr_scope_learn_rate_1e-4" :  Learning rate 1e-4, --checkpoint_exclude_scopes as "resnet_v1_152/logits" and --trainable_scopes as value "resnet_v1_152/block4/unit_1/bottleneck_v1/conv1,resnet_v1_152/block4/unit_1/bottleneck_v1/conv2,resnet_v1_152/block4/unit_1/bottleneck_v1/conv3,resnet_v1_152/block4/unit_1/bottleneck_v1/shortcut,resnet_v1_152/block4/unit_2/bottleneck_v1/conv1,resnet_v1_152/block4/unit_2/bottleneck_v1/conv2,resnet_v1_152/block4/unit_2/bottleneck_v1/conv3,resnet_v1_152/block4/unit_3/bottleneck_v1/conv1,resnet_v1_152/block4/unit_3/bottleneck_v1/conv2,resnet_v1_152/block4/unit_3/bottleneck_v1/conv3,resnet_v1_152/conv1,resnet_v1_152/logits"
+	Log dir "_FineTune_new_tr_scope_learn_rate_0.0005" : Learning rate 1e-4, --checkpoint_exclude_scopes as "resnet_v1_152/logits" and --trainable_scopes as value	
+```
+
+## 5. Selecting best performing model from above step and training all tensors with best performing learning rate
+```
+	i) Best Model selected is Resnet v1 152
+	ii) Best Learning rate selected is 1e-3
+	iii) Retraining all tensor layers for Resnet v1 152 with learning rate of 1e-3
+	Script: "retrain_all_layers.sh" Model file with Param: "retrain_all_layers.txt"
+	Log dir "_FineTune_no_tr_scope_learn_rate_1-3" : Learning rate 1e-3, --checkpoint_exclude_scopes as "resnet_v1_152/logits" and --trainable_scopes as None
 ```
