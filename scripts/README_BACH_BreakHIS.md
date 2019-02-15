@@ -118,9 +118,9 @@ inception_v4 : image resize was needed to 224 X 224
 	Log dir "_FineTune_new_tr_scope_learn_rate_0.0005" : Learning rate 1e-4, --checkpoint_exclude_scopes as "resnet_v1_152/logits" and --trainable_scopes as value	
 ```
 
-## 5. Selecting best performing model from above step and training all tensors with best performing learning rate
+## 5. Selecting best performing model from above step and training all tensor layers with best performing learning rate
 ```
-	i) Best Model selected is Resnet v1 152
+	i) Best Model selected is Resnet v1 152 with accuracy at  100K step  of "0.8175"
 	ii) Best Learning rate selected is 1e-3
 	iii) Retraining all tensor layers for Resnet v1 152 with learning rate of 1e-3
 	Script: "retrain_all_layers.sh" Model file with Param: "retrain_all_layers.txt"
