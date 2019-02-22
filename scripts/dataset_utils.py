@@ -125,8 +125,13 @@ def image_to_tfexample_step1(image_data, image_format, height, width, image_name
                                                 ):
   return tf.train.Example(features=tf.train.Features(feature={
       'image/encoded': bytes_feature(image_data),
+<<<<<<< HEAD
       'image/format': bytes_feature(image_format.encode('utf8')),
       'image/name': bytes_feature(image_name.encode('utf8')),
+=======
+      'image/format': bytes_feature(image_format),
+      'image/name': bytes_feature(image_name),
+>>>>>>> upstream/master
       'image/height': int64_feature(height),
       'image/width': int64_feature(width),
       'phenotype/histological_type': int64_feature(histological_type),
@@ -134,7 +139,13 @@ def image_to_tfexample_step1(image_data, image_format, height, width, image_name
       'phenotype/tumor_class': int64_feature(tumor_class)
 
   }))
+<<<<<<< HEAD
 def read_label_file(dataset_dir, filename):
+=======
+
+
+ read_label_file(dataset_dir, filename=LABELS_FILENAME):
+>>>>>>> upstream/master
   """Reads the labels file and returns a mapping from ID to class name.
 
   Args:

@@ -1,0 +1,3 @@
+/data/Naresh_Learning/results/bh_bach/resnet_v1_152/train/model.ckpt-100000	resnet_v1_152	resnet_v1_152/block4,resnet_v1_152/logits
+/data/Naresh_Learning/results/bh_bach/resnet_v1_50/train/model.ckpt-100000	resnet_v1_50	resnet_v1_50/block4,resnet_v1_50/logits
+/data/Naresh_Learning/results/bh_bach/resnet_v2_50/train/model.ckpt-100000	resnet_v2_50	resnet_v2_50/postnorm,resnet_v2_50/logits
