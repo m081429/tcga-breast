@@ -87,7 +87,7 @@ nasnet_mobile:image resize was needed to 224 X 224
 nasnet_large:image resize was needed to 331 X 331
 pnasnet_large:image resize was needed to 331 X 331
 pnasnet_mobile:image resize was needed to 224 X 224
-inception_v4 : image resize was needed to 224 X 224
+inception_v4 : image resize was needed to 224 X 224 
 ```
 
 ## 4. Selecting top 3 performing model and fine tuning last tensors with 1e-6 learning rate
@@ -126,3 +126,14 @@ inception_v4 : image resize was needed to 224 X 224
 	Script: "retrain_all_layers.sh" Model file with Param: "retrain_all_layers.txt"
 	Log dir "_FineTune_no_tr_scope_learn_rate_1-3" : Learning rate 1e-3, --checkpoint_exclude_scopes as "resnet_v1_152/logits" and --trainable_scopes as None
 ```
+## 6. Freezing the  best performing model from above step and applying it on the TCGA data
+```
+	i) Best Model selected is Resnet v1 152 with accuracy at  100K step  of "0.85875"
+	ii) Applying this model on the TCGA data
+```
+## 7. Selecting the tumor status "1" TCGA data (patches) 
+```
+	i) Best Model selected is Resnet v1 152 with accuracy at  100K step  of "0.85875"
+	ii) Applying this model on the TCGA data
+```
+
