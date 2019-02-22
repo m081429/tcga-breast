@@ -28,7 +28,6 @@ do
 		 --batch_size 32 \
 		 --checkpoint_path $CHECK_POINT_PATH \
 		 --checkpoint_exclude_scopes=${CH_SCOPE} \
-		 --trainable_scopes=${SCOPE} \
 		 --preprocessing_name bh_bach \
 		 --optimizer rmsprop \
 		 --learning_rate 0.001 \
