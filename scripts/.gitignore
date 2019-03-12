@@ -3,3 +3,6 @@ run_models.txt
 retrain_models.cfg
 retrain_models.txt
 retrain_all_layers.txt
+Create_TCGA_TF.sh
+FINAL_TCGA_SVS.txt
+TCGA_SVS.txt

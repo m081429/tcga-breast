@@ -129,11 +129,12 @@ inception_v4 : image resize was needed to 224 X 224
 ## 6. Freezing the  best performing model from above step and applying it on the TCGA data
 ```
 	i) Best Model selected is Resnet v1 152 with accuracy at  100K step  of "0.85875"
-	ii) Applying this model on the TCGA data
+	Applying this model on the TCGA data
+	ii) This script "Unify_TCGA_info.py" will normalize the metadata information in to one file
+	python Unify_TCGA_info.py -p $PHENO_DIR -s $PHENO_SET -t $TCGA_SVS_FILE -o $FINAL_COMBINED_FILE
+	iii)"FINAL_TCGA_SVS.txt" file has all the metadata information along with path to svs file
+	iv) script "Create_TCGA_ImagePatches.py" will read the above file and create the tfrecords(used ncsa cluster to create tfrecords parallely for 392 samples script "NCSA_Create_TCGA_TF.sh")
+	v)Tried applying the model on one of the created TCGA tfrecords using "inference.sh"
 ```
-## 7. Selecting the tumor status "1" TCGA data (patches) 
-```
-	i) Best Model selected is Resnet v1 152 with accuracy at  100K step  of "0.85875"
-	ii) Applying this model on the TCGA data
-```
+
 

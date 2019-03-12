@@ -1,11 +1,15 @@
 #tfrecord='/data/WSI-Classification/records/spitz_train_00000-of-00004.tfrecord'
-tfrecord_dir='/data/Naresh_Learning/scripts/patches1/tfrecord'
+#tfrecord_dir='/data/Naresh_Learning/data/bh_bach/tfrecords/'
+#tfrecord_dir='/data/Naresh_Learning/data/BRCA_TCGA/tfrecords/Train'
+tfrecord_dir='/data/Naresh_Learning/data/BRCA_TCGA/tfrecords/Test'
 import tensorflow as tf
 import io
 import sys
 from PIL import Image
 import numpy as np
-tf_files=['bh_bach_train_bach.tfrecords','bh_bach_train_bh.tfrecords','bh_bach_val_bach.tfrecords','bh_bach_val_bh.tfrecords']
+#tf_files=['bh_bach_val_bach.tfrecords','bh_bach_val_bh.tfrecords']
+#tf_files=['TCGA-A1-A0SK.tfrecords','TCGA-AO-A03M.tfrecords']
+tf_files=['TCGA-A2-A0CT.tfrecords']
 for i in tf_files:
 	tfrecord=tfrecord_dir+'/'+i
 	#print(tfrecord)
@@ -25,4 +29,4 @@ for i in tf_files:
 					print(k, v.bytes_list.value[0])
 				except:
 					print(k, v.int64_list.value[0])
-	#break
+		break
