@@ -20,7 +20,12 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from preprocessing import basic
+#from preprocessing import cifarnet_preprocessing
+#from preprocessing import inception_preprocessing
+#from preprocessing import lenet_preprocessing
+#from preprocessing import vgg_preprocessing
+from preprocessing import bh_bach_preprocessing
+from preprocessing import tcga_preprocessing
 
 slim = tf.contrib.slim
 
@@ -42,14 +47,19 @@ def get_preprocessing(name, is_training=False):
     ValueError: If Preprocessing `name` is not recognized.
   """
   preprocessing_fn_map = {
-      'basic': basic
+      'bh_bach': bh_bach_preprocessing,
+	  'tcga':tcga_preprocessing
   }
 
   if name not in preprocessing_fn_map:
     raise ValueError('Preprocessing name [%s] was not recognized' % name)
 
-  def preprocessing_fn(image, output_height, output_width, **kwargs):
-    return preprocessing_fn_map[name].preprocess_image(
-        image, output_height, output_width, is_training=is_training, **kwargs)
+  # def preprocessing_fn(image, output_height, output_width, **kwargs):
+    # return preprocessing_fn_map[name].preprocess_image(
+        # image, output_height, output_width, is_training=is_training, **kwargs)
 
+  def preprocessing_fn(image, output_height, output_width):
+    return preprocessing_fn_map[name].preprocess_image(
+        image, output_height, output_width)
+		
   return preprocessing_fn

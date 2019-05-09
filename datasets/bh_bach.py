@@ -27,18 +27,17 @@ import tensorflow as tf
 
 slim = tf.contrib.slim
 
-_FILE_PATTERN = 'tcga'
+_FILE_PATTERN = 'bh_bach'
 
 _ITEMS_TO_DESCRIPTIONS = {
   'height': 'height of image',
   'width': 'width of image',
   'label': 'image label',
-  'image': 'raw image',
-  #'name': 'image_patch_name'
+  'image_raw': 'raw image'
 }
 
 
-def get_split(split_name, dataset_dir, file_pattern='tcga', reader=None):
+def get_split(split_name, dataset_dir, file_pattern='bh_bach', reader=None):
   """Gets a dataset tuple with instructions for reading flowers.
 
   Args:
@@ -67,15 +66,14 @@ def get_split(split_name, dataset_dir, file_pattern='tcga', reader=None):
       'image/encoded': tf.FixedLenFeature((), tf.string, default_value=''),
       'image/format': tf.FixedLenFeature((), tf.string, default_value='png'),
       #'image/width':  tf.FixedLenFeature((), tf.string, default_value=''),
-      'phenotype/AnyGene_Mutations': tf.FixedLenFeature([], tf.int64, default_value=tf.zeros([], dtype=tf.int64)),
-      #'image/name': tf.FixedLenFeature([], dtype=tf.string, default_value=''),
-	  
+      'phenotype/tumor_class': tf.FixedLenFeature(
+          [], tf.int64, default_value=tf.zeros([], dtype=tf.int64)),
   }
 
   items_to_handlers = {
       'image': slim.tfexample_decoder.Image('image/encoded'),
-      'label': slim.tfexample_decoder.Tensor('phenotype/AnyGene_Mutations'),
-      #'name': slim.tfexample_decoder.Tensor('image/name')
+      'label': slim.tfexample_decoder.Tensor('phenotype/tumor_class'),
+      #'size': slim.tfexample_decoder.Tensor('image/width')
   }
 
   decoder = slim.tfexample_decoder.TFExampleDecoder(
@@ -93,15 +91,14 @@ def get_split(split_name, dataset_dir, file_pattern='tcga', reader=None):
   num_samples = 0
   tfrecords_to_count = [os.path.join(dataset_dir, file)
     for file in os.listdir(dataset_dir)
-    if file.startswith('TCGA') and split_name in file
-    ]
-  print(tfrecords_to_count)
+    if file.startswith(file_pattern+'_'+split_name)]
+
   for tfrecord_file in tfrecords_to_count:
     record_num=1
     print('\nExamining: {}'.format(tfrecord_file))
     try:
       for record in tf.python_io.tf_record_iterator(tfrecord_file):
-          #print('Record {}'.format(num_samples,record), end='\r', flush=True)
+          print('Record {}'.format(num_samples,record), end='\r', flush=True)
           num_samples += 1
           record_num += 1
     except:
