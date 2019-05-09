@@ -13,7 +13,11 @@ do
 	TRAIN_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune_no_tr_scope_learn_rate_1e_3/train"
 	EVAL_LOGDIR=$LOGDIR"/"$MODELNAME"_FineTune_no_tr_scope_learn_rate_1e_3/eval"
 	mkdir -p $LOGDIR"/"$MODELNAME
+<<<<<<< HEAD
 	for ((step=100000;step<=100000;step=step+10000)); 
+=======
+	for ((step=10000;step<=100000;step=step+10000)); 
+>>>>>>> 51eda72cfb38934ba277cf5c08b6862b5d13ff7a
 	do
 		echo $CHECK_POINT_PATH $MODELNAME $SCOPE $TRAIN_LOGDIR $EVAL_LOGDIR $step
 		python $SLIM_SCRIPTS/train_image_classifier.py \

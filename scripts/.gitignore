@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Create_TCGA_TF.sh
 FINAL_TCGA_SVS.txt
 k
@@ -16,3 +17,13 @@ TCGA_anygene_mut.txt
 tcga_run_models.txt
 TCGA_SVS.txt
 tfrecord.txt
+=======
+run_models.cfg
+run_models.txt
+retrain_models.cfg
+retrain_models.txt
+retrain_all_layers.txt
+Create_TCGA_TF.sh
+FINAL_TCGA_SVS.txt
+TCGA_SVS.txt
+>>>>>>> 51eda72cfb38934ba277cf5c08b6862b5d13ff7a

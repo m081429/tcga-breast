@@ -77,10 +77,16 @@ def create_patch(svs,patch_sub_size,patch_dir,samp,p,tf_output):
 				'''creating patch name'''
 				num_patch=samp+"_X_"+str(start_x)+"_"+str(start_x+patch_sub_size)+"_Y_"+str(start_y)+"_"+str(start_y+patch_sub_size)
 				#filenames.append(num_patch)
+<<<<<<< HEAD
 				#tmp_png=patch_dir+'/'+num_patch+'.png'
 				'''saving image'''
 				#im_sub.save(tmp_png, "png")
 				#sys.exit(1)
+=======
+				#tmp_png=patch_dir+'/'+num_patch
+				'''saving image'''
+				#im_sub.save(tmp_png, "png")
+>>>>>>> 51eda72cfb38934ba277cf5c08b6862b5d13ff7a
 				image_format="png"    
 				height=224
 				width=224  
