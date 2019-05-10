@@ -134,7 +134,22 @@ inception_v4 : image resize was needed to 224 X 224
 	python Unify_TCGA_info.py -p $PHENO_DIR -s $PHENO_SET -t $TCGA_SVS_FILE -o $FINAL_COMBINED_FILE
 	iii)"FINAL_TCGA_SVS.txt" file has all the metadata information along with path to svs file
 	iv) script "Create_TCGA_ImagePatches.py" will read the above file and create the tfrecords(used ncsa cluster to create tfrecords parallely for 392 samples script "NCSA_Create_TCGA_TF.sh")
-	v)Tried applying the model on one of the created TCGA tfrecords using "inference.sh"
+	v)Predicted tumor TCGA image patches using script inference.sh(used function tf.print in the script inference2.py)
+	vi) Recreated TCGA tfrecords by retaining only the predicted tumor patches using ./ncsa_scripts/Subset_tumor_only_images_tfrecords.sh and ./ncsa_scripts/Subset_tumor_only_images_tfrecords.py
+	vii)moved the new tfrecords to cytomine and selected 90 TCGA samples (60 samples with out any mutation and 30 samples with any mutation)
+	vii) Selected tfrecords are qc'ed to avoid data corrupt error using script confirm_tf_record1.py(ran 4 times to make sure all problamtic samples are removed)
+	viii) Applied models inception V1, Resnet v1 152 (prevously this was best for tumor vs normal) and Resnet v1 50 using tcga_run_models.sh and got eval accuracies aroung 53-55%
 ```
-
-
+## 7. Used Level 2 TCGA data for any gene mutation prediction
+```
+	i) Recreated tfrecords from TCGA samples using level2 data using script ./ncsa_scripts/Create_TCGA_ImagePatches_level2.py
+	ii) Transferred data to cytomine and selected  120 non mutated samples and 60 mutated samples using script verify_tfrecords_data_loss_error.sh
+	iii) Applied model  Resnet v1 152 100k steps and got eval accuracy of 55 using script tcga_run_models.sh
+	* i did not separated tumor predicted images from normal as the TumorvsNormal model was created using level 0 data
+```
+## 8. Used Level 2 TCGA data for BRCA1 mutation prediction
+```
+	i) Selected  36 non mutated samples and 18 mutated samples using script verify_tfrecords_data_loss_error.sh
+	ii) Applied model  Resnet v1 50 100k steps and got eval accuracy of 66% (at 50k steps) using script tcga_run_models.sh
+	* i did not separated tumor predicted images from normal as the TumorvsNormal model was created using level 0 data
+```
