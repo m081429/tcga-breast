@@ -144,12 +144,12 @@ inception_v4 : image resize was needed to 224 X 224
 ```
 	i) Recreated tfrecords from TCGA samples using level2 data using script ./ncsa_scripts/Create_TCGA_ImagePatches_level2.py
 	ii) Transferred data to cytomine and selected  120 non mutated samples and 60 mutated samples using script verify_tfrecords_data_loss_error.sh
-	iii) Applied model  Resnet v1 152 100k steps and got eval accuracy of 55 using script tcga_run_models.sh
+	iii) Applied model  Resnet v1 152 500k steps and got eval accuracy of 58 using script tcga_run_models.sh
 	* i did not separated tumor predicted images from normal as the TumorvsNormal model was created using level 0 data
 ```
 ## 8. Used Level 2 TCGA data for BRCA1 mutation prediction
 ```
 	i) Selected  36 non mutated samples and 18 mutated samples using script verify_tfrecords_data_loss_error.sh
-	ii) Applied model  Resnet v1 50 100k steps and got eval accuracy of 66% (at 50k steps) using script tcga_run_models.sh
+	ii) Applied model  Resnet v1 50 500k steps and got eval accuracy of 68%  using script tcga_run_models.sh
 	* i did not separated tumor predicted images from normal as the TumorvsNormal model was created using level 0 data
 ```

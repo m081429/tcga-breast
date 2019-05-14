@@ -12,7 +12,7 @@ do
 	TRAIN_LOGDIR=$LOGDIR"/"$MODELNAME"/train"
 	EVAL_LOGDIR=$LOGDIR"/"$MODELNAME"/eval"
 	mkdir -p $LOGDIR"/"$MODELNAME
-	for ((step=10000;step<=100000;step=step+10000)); 
+	for ((step=100000;step<=500000;step=step+10000)); 
 	do
 		for ((try=1;try<=10;try=try+1));
 		do	
